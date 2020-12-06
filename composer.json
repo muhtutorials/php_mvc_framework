@@ -1,0 +1,18 @@
+{
+    "name": "igor/php_mvc_framework",
+    "authors": [
+        {
+            "name": "Igor",
+            "email": "igorwho@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "ext-pdo": "*"
+    }
+}
